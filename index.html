@@ -76,18 +76,52 @@
                 <li><strong>Graphic Designer</strong> - EnfraUSA Inc. (2022 - 2024)</li>
 
                 <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-                <li>HTML & CSS</li>
-                <li>JavaScript</li>
-                <li>Responsive Design</li>
-                <li>Bootstrap</li>
-                <li>MySQL</li>
-                <li>WordPress</li>
-                <li>Web Performance Optimization</li>
-                <li>Adobe Creative Suite</li>
+                <h4 class="w3-padding-16 w3-text-light-grey">Languages:</h4>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                </ul>
 
-                <button class="w3-button w3-light-grey w3-padding-large w3-section">
-                    <i class="fa fa-download"></i> Download Resume
-                </button>
+                <h4 class="w3-padding-16 w3-text-light-grey">CSS Frameworks:</h4>
+                <ul>
+                    <li>Materialize CSS</li>
+                    <li>Bootstrap</li>
+                </ul>
+
+                <h4 class="w3-padding-16 w3-text-light-grey">Version Control:</h4>
+                <ul>
+                    <li>GitHub</li>
+                </ul>
+
+                <h4 class="w3-padding-16 w3-text-light-grey">Design Tools:</h4>
+                <ul>
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                </ul>
+
+                <h4 class="w3-padding-16 w3-text-light-grey">CMS:</h4>
+                <ul>
+                    <li>WordPress</li>
+                    <li>October CMS</li>
+                    <li>GoDaddy</li>
+                    <li>Joomla</li>
+                </ul>
+
+                <h4 class="w3-padding-16 w3-text-light-grey">SEO:</h4>
+                <ul>
+                    <li>Redirects</li>
+                    <li>Meta Data</li>
+                </ul>
+
+                <h4 class="w3-padding-16 w3-text-light-grey">Other Skills:</h4>
+                <ul>
+                    <li>Responsive Design</li>
+                    <li>Cross-Browser Compatibility</li>
+                    <li>Troubleshoot & Debugging</li>
+                </ul>
+
+
             </div>
             <!-- End About Section -->
         </div>
@@ -97,20 +131,35 @@
             <h2 class="w3-text-light-grey">My Projects</h2>
             <hr style="width:200px" class="w3-opacity">
 
-            <!-- Grid for photos -->
-            <div class="w3-row-padding" style="margin:0 -16px">
-                <div class="w3-half">
-                    <img src="./images/proj1.jpeg" style="width:100%">
-                    <img src="./images/proj2.jpeg" style="width:100%">
-                    <img src="./images/proj4.jpeg" style="width:100%">
+                <!-- Trigger the Modal -->
+                             <div class="w3-row-padding" style="margin:0 -16px">
+
+                <img class="myImages img-fluid" src="./images/francia.jpg" alt="Francia Travel & Tours" style="width:100%;max-width:300px">
+                <img class="myImages img-fluid" src="./images/travel.jpg" alt="Travel Site Template" style="width:100%;max-width:300px">
+                <img class="myImages img-fluid" src="./images/proj1.jpeg" alt="AdoptaPaw" style="width:100%;max-width:300px">
+                <img class="myImages img-fluid" src="./images/proj2.jpeg" alt="MoveIt" style="width:100%;max-width:300px">
+                <img class="myImages img-fluid" src="./images/proj11.jpg" alt="Dice Game" style="width:100%;max-width:300px">
+                <img class="myImages img-fluid" src="./images/proj12.jpg" alt="Drum Kit" style="width:100%;max-width:300px">
+                <img class="myImages img-fluid" src="./images/proj13.jpg" alt="Blog" style="width:100%;max-width:300px">
+                <img class="myImages img-fluid" src="./images/proj14.jpg" alt="Weather App" style="width:100%;max-width:300px">
+                <img class="myImages img-fluid" src="./images/proj8.jpeg" alt="Migrated Website Sample" style="width:100%;max-width:300px">
+                <img class="myImages img-fluid" src="./images/proj9.jpeg" alt="Migrated Website Sample" style="width:100%;max-width:300px">
+                <img class="myImages img-fluid" src="./images/proj10.jpeg" alt="Migrated Website Sample" style="width:100%;max-width:300px">
+
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01">
+
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
                 </div>
 
-                <div class="w3-half">
-                    <img src="./images/proj3.jpeg" style="width:100%">
-                    <img src="./images/proj7.jpeg" style="width:100%">
-                    <img src="./images/proj6.jpeg" style="width:100%">
-
-                </div>
                 <!-- End photo grid -->
             </div>
             <!-- End Portfolio Section -->
@@ -126,39 +175,51 @@
                 </p>
                 <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +639957358990</p>
                 <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: <a
-                        href="mailto:jpfrancia@gmail.com">jpfrancia@gmail.com</a>
+                        href="mailto:jpfrancia@gmail.com">jphillipfrancia@gmail.com</a>
                 </p>
             </div><br>
-            <p>Let's get in touch. Send me a message:</p>
 
-            <form action="/action_page.php" target="_blank">
-                <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-                <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-                <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-                <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-                <p>
-                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                    </button>
-                </p>
-            </form>
             <!-- End Contact Section -->
         </div>
 
         <!-- Footer -->
-        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-snapchat w3-hover-opacity"></i>
-            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-            <i class="fa fa-twitter w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <!-- End footer -->
+        <footer class="footer white">
+            <div class="container center-align">
+                <p class="black-text">&copy;
+                    <script>document.write(new Date().getFullYear())</script>
+                </p>
+            </div>
         </footer>
 
         <!-- END PAGE CONTENT -->
     </div>
+    <script>
+        // create references to the modal...
+        var modal = document.getElementById('myModal');
+        // to all images -- note I'm using a class!
+        var images = document.getElementsByClassName('myImages');
+        // the image in the modal
+        var modalImg = document.getElementById("img01");
+        // and the caption in the modal
+        var captionText = document.getElementById("caption");
 
+        // Go through all of the images with our custom class
+        for (var i = 0; i < images.length; i++) {
+            var img = images[i];
+            // and attach our click listener for this image.
+            img.onclick = function (evt) {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+        }
+
+        var span = document.getElementsByClassName("close")[0];
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>
 </body>
 
 </html>
